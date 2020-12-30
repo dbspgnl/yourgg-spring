@@ -1,0 +1,27 @@
+post
+seq: number / 인덱스
+title: string / 제목
+content: string / 내용
+date: string / 날짜
+name: string / 이름
+replyCtn: number / 댓글 수
+rcmCtn: number / 추천 수
+viewsCtn: number / 조회 수
+
+
+reply
+seq: number / 댓글 번호
+list_num: number / 글 번호
+group_num: number / 댓글 순서
+group_order: number / 댓글 순서의 순서
+name: string / 댓글 단 유저 이름
+content: 댓글의 내용
+date: 댓글 등록일
+
+
+User
+seq: number / 유저 번호
+name: 유저이름
+id: 유저 아이디
+pw: 유저 패스워드
+joinDate: 가입일
